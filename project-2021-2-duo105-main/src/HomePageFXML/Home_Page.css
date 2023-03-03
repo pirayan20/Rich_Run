@@ -1,0 +1,47 @@
+#choose2P {
+    -fx-background-radius:12;
+    -fx-background-color:rgb(240, 133, 133);
+    -fx-border-color:black;
+    -fx-border-width:2;
+    -fx-border-radius:15;
+}
+
+#choose2P:hover{
+    -fx-background-color:rgb(236, 231, 231)
+}
+
+#choose3P {
+    -fx-background-radius:12;
+    -fx-background-color:rgb(250, 240, 137);
+    -fx-border-color:black;
+    -fx-border-width:2;
+    -fx-border-radius:15;
+}
+
+#choose3P:hover{
+    -fx-background-color:rgb(236, 231, 231);
+}
+
+#choose4P {
+    -fx-background-radius:12;
+    -fx-background-color:rgb(175, 232, 195);
+    -fx-border-color:black;
+    -fx-border-width:2;
+    -fx-border-radius:15;
+}
+
+#choose4P:hover{
+    -fx-background-color:rgb(236, 231, 231);
+}
+
+#readRuleButton {
+    -fx-background-radius:12;
+    -fx-background-color:rgba(202, 204, 204, 0.739);
+    -fx-border-color:black;
+    -fx-border-width:2;
+    -fx-border-radius:15;
+}
+
+#readRuleButton:hover{
+    -fx-background-color:rgb(236, 231, 231);
+}

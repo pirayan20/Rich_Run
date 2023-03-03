@@ -1,0 +1,85 @@
+#startButton {
+    -fx-background-radius:20;
+}
+
+#startButton:hover{
+    -fx-background-color:rgb(93, 92, 92);
+    -fx-border-width:2;
+    -fx-border-color:black;
+    -fx-border-radius:20;
+    -fx-text-fill:white;
+}
+
+.normalButton {
+	-fx-background-radius:15;
+    -fx-border-color:black;
+    -fx-border-radius:15;
+    -fx-border-width:3;
+    
+}
+
+.specialButton{
+	-fx-background-radius:15;
+	-fx-border-radius:15;
+	-fx-border-width:3;
+	-fx-border-color:rgb(192, 192, 192);
+}
+
+.cornerButton{
+	-fx-background-radius:15;
+	-fx-border-radius:15;
+	-fx-border-width:3;
+	-fx-border-color:rgb(128, 0, 128);
+}
+
+#player1Press {
+    -fx-background-color:#8ba8f5;
+}
+
+#player2Press {
+    -fx-background-color:#f08585;
+}
+
+#player3Press {
+    -fx-background-color:#faf089;
+}
+
+#player4Press {
+    -fx-background-color:#afe8c3;
+}
+
+#playerNonPress{
+}
+
+.player1Got{
+    -fx-border-color:#1850e9;
+}
+
+.player2Got{
+    -fx-border-color:#f53333;
+}
+
+.player3Got{
+    -fx-border-color:#f3de01;
+}
+
+.player4Got{
+    -fx-border-color:#00fd59;
+}
+
+.playerNonGot{
+    -fx-background-color: rgb(79, 78, 77)
+}
+
+#readMoreButton{
+    -fx-background-color: rgb(202, 146, 14);
+    -fx-background-radius:10;
+}
+
+#readMoreButton:hover{
+    -fx-text-fill:rgb(248, 245, 245);
+    -fx-border-color:black;
+    -fx-border-radius:10;
+    -fx-border-width:1;
+}
+

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1120.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomePageFXML.ControlHomePage">
+	
+	
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1120.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../res/homeBackground.png" />
+         </image>
+      </ImageView>
+      <VBox prefHeight="720.0" prefWidth="1120.0">
+         <children>
+            <VBox id="background" prefHeight="720.0" prefWidth="1280.0" spacing="10.0" stylesheets="HomePageFXML/Home_Page.css">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" />
+               </padding>
+               <children>
+                  <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="1239.0">
+                     <children>
+                        <ImageView fitHeight="123.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true" rotate="10.0">
+                           <image>
+                              <Image url="@../../res/lovepik.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </ImageView>
+                        <Label prefHeight="82.0" prefWidth="535.0" rotate="3.0" text="RUN &amp; RICH" textFill="#eeeaea">
+                           <font>
+                              <Font name="Berlin Sans FB" size="80.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="20.0" top="40.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="60.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" prefHeight="60.0" prefWidth="200.0" style="-fx-border-radius: 12;">
+                     <children>
+                        <Button fx:id="choose2P" mnemonicParsing="false" onAction="#goToEnterNamePage2P" prefHeight="51.0" prefWidth="490.0" stylesheets="@Home_Page.css" text="2 player" textAlignment="CENTER">
+                           <font>
+                              <Font name="Berlin Sans FB" size="30.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="20.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" prefHeight="60.0" prefWidth="200.0">
+                     <VBox.margin>
+                        <Insets top="25.0" />
+                     </VBox.margin>
+                     <children>
+                        <Button fx:id="choose3P" mnemonicParsing="false" onAction="#goToEnterNamePage3P" prefHeight="51.0" prefWidth="490.0" stylesheets="@Home_Page.css" text="3 player">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Berlin Sans FB" size="30.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" prefHeight="60.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="choose4P" mnemonicParsing="false" onAction="#goToEnterNamePage4P" prefHeight="30.0" prefWidth="490.0" stylesheets="@Home_Page.css" text="4 player">
+                           <font>
+                              <Font name="Berlin Sans FB" size="30.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="25.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="readRuleButton" mnemonicParsing="false" onAction="#goToPopUpReadRule" prefHeight="51.0" prefWidth="490.0" stylesheets="@Home_Page.css" text="READ RULE">
+                           <font>
+                              <Font name="Berlin Sans FB" size="30.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="40.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+            </VBox>
+            <HBox alignment="TOP_RIGHT" prefHeight="97.0" prefWidth="121.0">
+               <children>
+                  <ImageView fx:id="optionButton" fitHeight="143.0" fitWidth="112.0" onMouseClicked="#goToPopUpOption" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../res/option2.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fx:id="logOutButton" fitHeight="74.0" fitWidth="70.0" onMouseClicked="#closeApp" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../res/logout2.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets right="50.0" top="20.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

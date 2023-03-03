@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="554.0" prefWidth="520.0" style="-fx-background-color: rgb(245, 238, 210);" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GamePageFXML.ControlEndGame">
+   <children>
+      <VBox layoutX="17.0" layoutY="17.0" prefHeight="512.0" prefWidth="481.0" style="-fx-border-color: rgb(202, 146, 14); -fx-border-width: 3; -fx-border-radius: 12;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Congratulation!!" underline="true" wrappingWidth="277.265625">
+               <font>
+                  <Font name="Berlin Sans FB" size="40.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="110.0" top="30.0" />
+               </VBox.margin>
+            </Text>
+            <HBox prefHeight="45.0" prefWidth="475.0">
+               <children>
+                  <Label prefHeight="33.0" prefWidth="89.0" text="Player">
+                     <font>
+                        <Font name="Berlin Sans FB" size="30.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="60.0" />
+                     </HBox.margin>
+                  </Label>
+                  <ImageView fitHeight="34.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../project-2021-2/res/money.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="150.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Total">
+                     <font>
+                        <Font name="Berlin Sans FB" size="30.0" />
+                     </font>
+                  </Text>
+               </children>
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="51.0" prefWidth="475.0">
+               <children>
+                  <Label text="1:">
+                     <font>
+                        <Font name="Berlin Sans FB" size="25.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Text fx:id="player1Name" strokeType="OUTSIDE" strokeWidth="0.0" text="Player1" wrappingWidth="244.23095703125">
+                     <HBox.margin>
+                        <Insets left="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Berlin Sans FB" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="player1Money" strokeType="OUTSIDE" strokeWidth="0.0" text="5000">
+                     <font>
+                        <Font name="Berlin Sans FB" size="25.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Text>
+                  <Label text="\$">
+                     <font>
+                        <Font name="Berlin Sans FB" size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="51.0" prefWidth="475.0">
+               <children>
+                  <Label text="2:">
+                     <font>
+                        <Font name="Berlin Sans FB" size="25.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Text fx:id="player2Name" strokeType="OUTSIDE" strokeWidth="0.0" text="Player2" wrappingWidth="244.23095703125">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Berlin Sans FB" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="player2Money" strokeType="OUTSIDE" strokeWidth="0.0" text="5000">
+                     <font>
+                        <Font name="Berlin Sans FB" size="25.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Text>
+                  <Label text="\$">
+                     <font>
+                        <Font name="Berlin Sans FB" size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="51.0" prefWidth="475.0">
+               <children>
+                  <Label text="3:">
+                     <font>
+                        <Font name="Berlin Sans FB" size="25.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Text fx:id="player3Name" strokeType="OUTSIDE" strokeWidth="0.0" text="Player3" wrappingWidth="244.23095703125">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Berlin Sans FB" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="player3Money" strokeType="OUTSIDE" strokeWidth="0.0" text="5000">
+                     <font>
+                        <Font name="Berlin Sans FB" size="25.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Text>
+                  <Label text="\$">
+                     <font>
+                        <Font name="Berlin Sans FB" size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="51.0" prefWidth="475.0">
+               <children>
+                  <Label text="4:">
+                     <font>
+                        <Font name="Berlin Sans FB" size="25.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Text fx:id="player4Name" strokeType="OUTSIDE" strokeWidth="0.0" text="Player4" wrappingWidth="244.23095703125">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Berlin Sans FB" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="player4Money" strokeType="OUTSIDE" strokeWidth="0.0" text="5000">
+                     <font>
+                        <Font name="Berlin Sans FB" size="25.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Text>
+                  <Label text="\$">
+                     <font>
+                        <Font name="Berlin Sans FB" size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

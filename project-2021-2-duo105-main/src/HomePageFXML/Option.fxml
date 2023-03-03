@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="205.0" prefWidth="384.0" style="-fx-background-color: rgb(210, 205, 205);" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomePageFXML.ControlHomePage">
+   <children>
+      <VBox layoutX="17.0" layoutY="23.0" prefHeight="159.0" prefWidth="350.0" style="-fx-border-width: 3; -fx-border-radius: 12; -fx-border-color: #11101d;">
+         <children>
+            <Label text="OPTION" textFill="#11101d" underline="true">
+               <font>
+                  <Font name="Berlin Sans FB" size="30.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="115.0" top="25.0" />
+               </VBox.margin>
+            </Label>
+            <HBox prefHeight="76.0" prefWidth="344.0">
+               <children>
+                  <ImageView fx:id="soundButton" fitHeight="58.0" fitWidth="64.0" onMouseClicked="#isSongRunning" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../res/speakeron.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="80.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Button fx:id="exitOptionButton" mnemonicParsing="false" onAction="#closePopUpOption" prefHeight="36.0" prefWidth="95.0" style="-fx-background-radius: 20;" text="Close">
+                     <HBox.margin>
+                        <Insets left="40.0" right="30.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Berlin Sans FB" size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
